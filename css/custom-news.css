@@ -1,0 +1,44 @@
+prm-newspapers-home div.padding-large {
+    padding-bottom: 5px;
+}
+#hvd_newspaperHome {
+    padding-top: 0px;
+    margin-top: -20px;
+}
+@media 
+(min-width: 1920px) {
+    #hvd_newspaperHome > div {
+        margin-left: 20%;
+    }
+}
+@media (max-width: 1919px) and (min-width: 1690px) {
+    #hvd_newspaperHome > div {
+        margin-left: 15%;
+    }
+}
+@media (max-width: 1689px) and (min-width: 1280px) {
+    #hvd_newspaperHome > div {
+        margin-left: 10%;
+    }
+}
+@media (max-width: 1279px) and (min-width: 960px) {
+    #hvd_newspaperHome > div {
+        margin-left: 0%;
+    }
+}
+#hvd_newspaperHome ul {
+    padding-left: 0px;
+}
+#hvd_newspaperHome li {
+    list-style-type: none;
+    line-height: 1.6;
+    font-size: 18px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+#hvd_newspaperHome md-icon {
+    height: 20px;
+    width: 20px;
+    min-height: 20px;
+    min-width: 20px;
+}
